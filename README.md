@@ -13,3 +13,11 @@
 - Adafruit onewire
 - Adafruit PureIO
 - Adafruit ds18x20
+
+# Required components
+- RP2040 Zero
+- 6 Cherry style keyboard switches
+- 6 0603 resistors (I used 3.3Kohm)
+- KY040 rotary encoder
+- JMD 0.96 inch oled display (Check if the pinout is correct they vary dependent on suplier)
+- DS18B20 thermometer

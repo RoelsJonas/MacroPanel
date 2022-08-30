@@ -12,3 +12,4 @@
 - Adafruit GPIO
 - Adafruit onewire
 - Adafruit PureIO
+- Adafruit ds18x20

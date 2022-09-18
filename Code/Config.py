@@ -5,6 +5,9 @@ MACRO = 1
 MEDIA = 2
 TEMP = 3
 
+# Change this value to the layer that needs to be chosen at boot
+defaultLayer = 0
+
 
 l0 = [
     [[Keycode.PAGE_UP], "Mute", KEY],
@@ -34,7 +37,7 @@ l2 = [
     ]
 
 l3= [
-    [[Keycode.CONTROL, Keycode.SHIFT, Keycode.ESCAPE], "TaskMan", MACRO],
+    [None, "Temp", TEMP],
     [[Keycode.B], "B", KEY],
     [[Keycode.C], "C", KEY],
     [[Keycode.D], "D", KEY],
@@ -43,7 +46,7 @@ l3= [
     ]
 
 l4 = [
-    [[Keycode.PAGE_UP], "Mute", KEY],
+    [None, "Temp", TEMP],
     [[Keycode.PAGE_DOWN], "Deafen", KEY],
     [[ConsumerControlCode.PLAY_PAUSE], "Pause", MEDIA],
     [[Keycode.THREE], "THREE", KEY],
@@ -64,7 +67,7 @@ layermap = {
     (0): l0,
     (1): l1,
     (2): l2,
-#    (3): l3,
+    (3): l3,
 #    (4): l4,
 #    (5): l5,
     }
